@@ -1,79 +1,76 @@
-idraw.o: idraw.c /usr/include/stdio.h /usr/include/features.h \
- /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
- /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
- /usr/lib/gcc/i686-redhat-linux/4.4.2/include/stddef.h \
- /usr/include/bits/types.h /usr/include/bits/typesizes.h \
- /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
- /usr/lib/gcc/i686-redhat-linux/4.4.2/include/stdarg.h \
- /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
- /usr/include/X11/Xlib.h /usr/include/sys/types.h /usr/include/time.h \
- /usr/include/endian.h /usr/include/bits/endian.h \
- /usr/include/bits/byteswap.h /usr/include/sys/select.h \
- /usr/include/bits/select.h /usr/include/bits/sigset.h \
- /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
- /usr/include/bits/pthreadtypes.h /usr/include/X11/X.h \
- /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h hard_devices.h \
- xgout.h
+idraw.o idraw.o: idraw.c /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_symbol_aliasing.h \
+  /usr/include/sys/_posix_availability.h /usr/include/Availability.h \
+  /usr/include/AvailabilityInternal.h /usr/include/_types.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/i386/_types.h /usr/include/secure/_stdio.h \
+  /usr/include/secure/_common.h /usr/include/X11/Xlib.h \
+  /usr/include/sys/types.h /usr/include/sys/appleapiopts.h \
+  /usr/include/machine/types.h /usr/include/i386/types.h \
+  /usr/include/i386/_types.h /usr/include/machine/endian.h \
+  /usr/include/i386/endian.h /usr/include/sys/_endian.h \
+  /usr/include/libkern/_OSByteOrder.h \
+  /usr/include/libkern/i386/_OSByteOrder.h /usr/include/sys/_structs.h \
+  /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h \
+  /usr/include/X11/Xosdefs.h \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h \
+  hard_devices.h xgout.h
 
 /usr/include/stdio.h:
 
-/usr/include/features.h:
-
 /usr/include/sys/cdefs.h:
 
-/usr/include/bits/wordsize.h:
+/usr/include/sys/_symbol_aliasing.h:
 
-/usr/include/gnu/stubs.h:
+/usr/include/sys/_posix_availability.h:
 
-/usr/include/gnu/stubs-32.h:
+/usr/include/Availability.h:
 
-/usr/lib/gcc/i686-redhat-linux/4.4.2/include/stddef.h:
+/usr/include/AvailabilityInternal.h:
 
-/usr/include/bits/types.h:
+/usr/include/_types.h:
 
-/usr/include/bits/typesizes.h:
+/usr/include/sys/_types.h:
 
-/usr/include/libio.h:
+/usr/include/machine/_types.h:
 
-/usr/include/_G_config.h:
+/usr/include/i386/_types.h:
 
-/usr/include/wchar.h:
+/usr/include/secure/_stdio.h:
 
-/usr/lib/gcc/i686-redhat-linux/4.4.2/include/stdarg.h:
-
-/usr/include/bits/stdio_lim.h:
-
-/usr/include/bits/sys_errlist.h:
+/usr/include/secure/_common.h:
 
 /usr/include/X11/Xlib.h:
 
 /usr/include/sys/types.h:
 
-/usr/include/time.h:
+/usr/include/sys/appleapiopts.h:
 
-/usr/include/endian.h:
+/usr/include/machine/types.h:
 
-/usr/include/bits/endian.h:
+/usr/include/i386/types.h:
 
-/usr/include/bits/byteswap.h:
+/usr/include/i386/_types.h:
 
-/usr/include/sys/select.h:
+/usr/include/machine/endian.h:
 
-/usr/include/bits/select.h:
+/usr/include/i386/endian.h:
 
-/usr/include/bits/sigset.h:
+/usr/include/sys/_endian.h:
 
-/usr/include/bits/time.h:
+/usr/include/libkern/_OSByteOrder.h:
 
-/usr/include/sys/sysmacros.h:
+/usr/include/libkern/i386/_OSByteOrder.h:
 
-/usr/include/bits/pthreadtypes.h:
+/usr/include/sys/_structs.h:
 
 /usr/include/X11/X.h:
 
 /usr/include/X11/Xfuncproto.h:
 
 /usr/include/X11/Xosdefs.h:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h:
 
 hard_devices.h:
 

@@ -15,8 +15,8 @@ proc build_topology { ns which } {
 
 	foreach i "0 1 2 3" {
 		global n$i
-		set tmp [$ns node]
-		set n$i $tmp
+#		set tmp [$ns node]
+            set n$i [$ns node]
 	}
 	$ns duplex-link $n0 $n2 5Mb 2ms DropTail
 	$ns duplex-link $n1 $n2 5Mb 2ms DropTail
@@ -142,7 +142,7 @@ proc finish {} {
 
 	#XXX
 	puts "running nam..."
-	exec nam out.nam &
+	exec ../../../nam-1.15/nam out.nam &
 	exit 0
 }
 

@@ -194,6 +194,7 @@ OBJ_CC = \
 	tcp/tcp.o tcp/tcp-sink.o tcp/tcp-reno.o \
 	tcp/tcp-newreno.o \
 	tcp/tcp-vegas.o tcp/tcp-rbp.o tcp/tcp-full.o tcp/rq.o \
+	tcp/tcp-rational.o \
 	baytcp/tcp-full-bay.o baytcp/ftpc.o baytcp/ftps.o \
 	tcp/scoreboard.o tcp/scoreboard-rq.o tcp/tcp-sack1.o tcp/tcp-fack.o \
 	tcp/scoreboard1.o tcp/tcp-linux.o tcp/linux/ns-linux-util.o \
