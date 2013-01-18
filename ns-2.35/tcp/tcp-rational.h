@@ -35,8 +35,7 @@ protected:
  * TCPRational with Reno.
  */
 
-#if 0
-class RenoTcpRationalAgent : public RenoTcpAgent, public TcpRationalAgent {
+class RenoTcpRationalAgent : public virtual RenoTcpAgent, public TcpRationalAgent {
 public:
 	RenoTcpRationalAgent() : RenoTcpAgent(), TcpRationalAgent() {}
 
@@ -44,8 +43,8 @@ public:
 	virtual void send_helper(int maxburst) {TcpRationalAgent::send_helper(maxburst);}
 	virtual void send_idle_helper() {TcpRationalAgent::send_idle_helper();}
 	virtual void recv_newack_helper(Packet* pkt) {TcpRationalAgent::recv_newack_helper(pkt);}
-	virtual double initial_window();
-	virtual void update_cwnd();
+	virtual double initial_window() {return TcpRationalAgent::initial_window();}
+	virtual void update_cwnd() {TcpRationalAgent::update_cwnd();}
 };
 
 /* 
@@ -59,10 +58,8 @@ public:
 	virtual void send_helper(int maxburst) {TcpRationalAgent::send_helper(maxburst);}
 	virtual void send_idle_helper() {TcpRationalAgent::send_idle_helper();}
 	virtual void recv_newack_helper(Packet* pkt) {TcpRationalAgent::recv_newack_helper(pkt);}
-	virtual double initial_window();
-	virtual void update_cwnd();
+	virtual double initial_window() {return TcpRationalAgent::initial_window();}
+	virtual void update_cwnd() {TcpRationalAgent::update_cwnd();}
 };
-
-#endif
 
 #endif

@@ -15,7 +15,6 @@ public:
 	}
 } class_tcprational;
 
-#if 0
 static class RenoTcpRationalClass : public TclClass {
 public:
 	RenoTcpRationalClass() : TclClass("Agent/TCP/Reno/Rational") {}
@@ -31,8 +30,6 @@ public:
 		return (new NewRenoTcpRationalAgent());
 	}
 } class_newreno_tcp_rational;	
-
-#endif
 
 /*
  * initial_window() is called in a few different places in tcp.cc.

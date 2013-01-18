@@ -73,8 +73,8 @@ puts [$cbr0 set interval_]
 $ns at 2.0 "finish"
 
 proc finish {} {
-	puts "running nam..."
-	exec nam out.nam &
+#	puts "running nam..."
+#	exec nam out.nam &
 	exit 0
 }
 

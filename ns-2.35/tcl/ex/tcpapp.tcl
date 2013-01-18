@@ -74,8 +74,8 @@ proc finish {} {
 	close $nf
 	close $f
 
-	puts "running nam..."
-	exec nam $namfile &
+#	puts "running nam..."
+#	exec nam $namfile &
 	exit 0
 }
 

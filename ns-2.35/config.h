@@ -91,7 +91,8 @@ struct ns_addr_t {
 #ifndef STRTOI64
 #if defined(SIZEOF_LONG) && SIZEOF_LONG >= 8
 #define STRTOI64 strtol
-#define STRTOI64_FMTSTR "%ld"
+//#define STRTOI64_FMTSTR "%ld"
+#define STRTOI64_FMTSTR "%lld"
 /*#define STRTOI64(S) strtol((S), NULL, 0) */
 
 #elif defined(HAVE_STRTOQ)
